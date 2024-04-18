@@ -1,0 +1,341 @@
+/* Documento CSS - Projeto cardapio */
+
+@font-face {
+    font-family: DancingScript-Medium;
+    src: url(DancingScript-Medium.ttf);
+}
+
+@font-face {
+    font-family: PermanentMarker-Regular;
+    src: url(PermanentMarker-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #F2BDD6;
+    min-width: 1080px;
+}
+
+#linha_topo {
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+}
+
+#topo {
+    background-color: #F2F2F2;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: #F280B6;
+
+}
+
+#topo #logo {
+    width: 100px;
+    height: 100px;
+    background-color: #F2F2F2;
+    margin-right: 5%;
+    border: 2px solid black;
+    border-radius: 200px;
+
+}
+
+#topo #logo img {
+    width: 50;
+    height: 100%;
+    border-radius: 200px;
+}
+
+#topo h1 {
+    font-size: 60px;
+    font-family: DancingScript-Medium;
+}
+
+#menu {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+}
+
+#menu ul {
+    list-style: none;
+
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+}
+
+#menu ul li a:hover {
+    background-color: darkgray;
+}
+
+.card {
+    color: #403A3A;
+    padding: 30px 100px;
+    margin: 30px 30px;
+    margin-top: 100px;
+    border-radius: 30px;
+    height: 500px;
+    width: 400px;
+}
+
+.card h2 {
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.card p {
+    text-align: center;
+}
+
+#comida {
+    height: 205px;
+}
+
+#comida img {
+    border-radius: 150px;
+    width: 100%;
+    max-width: max-content;
+    height: 100%;
+}
+
+.p1 {
+    margin-top: 10px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 1000px;
+}
+
+/* Parte 1 */
+
+#parte1 {
+
+    margin-top: 189px;
+    background-image: url(fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 250px;
+    padding: 20px;
+
+}
+
+#parte1 a {
+
+    display: flex;
+    background-color: red;
+    color: white;
+    padding: 10px 40px;
+    margin: 0 590px;
+    text-align: center;
+
+}
+
+#parte1 a:hover {
+    color: #878484;
+    background-color: rgb(148, 0, 0);
+    
+}
+
+#parte1 h2 {
+    display: flex;
+    color: white;
+    text-align: center;
+    margin-bottom: 100px;
+    color: black;
+    font-size: 60px;
+    font-family: DancingScript-Medium;
+
+}
+
+#parte1 p {
+    margin-bottom: 500px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(64, 58, 58, 0.7);
+    padding: 50px;
+    border-radius: 20px;
+}
+
+/* Parte 2 */
+
+#parte2 {
+
+    margin-top: 0;
+    max-height: 1440px;
+    align-items: flex-start;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+    padding: 30px 50px;
+    display: flex;
+
+}
+
+.card
+
+#parte2 h2 {
+    margin-bottom: 20px;
+}
+
+.titulo {
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 20px 250px;
+    font-size: 30px;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: #403A3A solid 3px;
+
+    
+}
+
+.titulo h2 {
+    padding-left: 50px;
+    font-family: PermanentMarker-Regular;
+}
+
+.titulo p {
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Parte 3 */
+
+#parte3 {
+    background-image: url(madeira_escura.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: #878484;
+    /* Alinhar div */
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    align-content: space-between;
+    height: max-content 1440px;
+}
+
+.cardp3 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 100px 20px;
+    color: white;
+}
+
+.tcard h3 {
+    border-bottom: #F2F2F2 solid 3px;
+}
+
+.tcard p {
+    padding-top: 10px;
+}
+
+.titulop3 {
+    margin-top: 50px;
+    color: white;
+    padding: 0px 500px;
+    padding-bottom: 0px;
+    height: 100px;
+}
+
+.titulop3 h2 {
+    font-size: 40px;
+    font-family: PermanentMarker-Regular;
+}
+
+.titulop3 p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.figurap3 {
+    margin-right: 10px;
+}
+
+/* Parte 4 */
+
+#parte4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.cardp4 {
+    
+    height: 400px;
+    width: 300px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    border-radius: 30px;
+}
+
+.img {
+    justify-content: center;
+}
+
+.img img {
+    height: 300px;
+}
+
+.titulop4 {
+    height: 41%;
+    border-radius: ;
+
+}
+
+#rodape {
+    height: 100px;
+    background-color: #403A3A;
+}
